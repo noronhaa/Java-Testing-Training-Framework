@@ -3,4 +3,10 @@ Testing framework for learning basic java as well as junit, webdriver and cucumb
 
 Navigate to the src/main/java/basicJava folder for some of the clases used in training
 
+the class primitiveTypes Class has some basic primitive examples
+
+the BasicJavaExamples has many different tyoes of methods that we have been learning
+
+most importantly, have a play around and try things out for yourself!
+
 
