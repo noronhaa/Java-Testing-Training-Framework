@@ -2,6 +2,8 @@ package basicJava;
 
 import org.junit.Test;
 
+import java.util.Scanner;
+
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
@@ -30,6 +32,7 @@ public class BasicJavaExamples {
 
         //This is a coommand to print the contents or value of whats inside the brackets
         System.out.println("Hello World");
+        whileLoopExample();
     }
 
 
@@ -85,6 +88,31 @@ public class BasicJavaExamples {
 
     }
 
+    void forLoopExample(){
+
+        String names[] = {"ash","Chris","Dan","Anuar"};
+
+        for (int i=0 ; i<names.length ; i++){
+            System.out.println(names[i]);
+        }
+
+        for (String name : names){
+            System.out.println(name);
+        }
+
+    }
+
+    static void whileLoopExample(){
+        String names[] = {"ash","Chris","Dan","Anuar"};
+        int x = 0;
+        while (x!=10){
+            System.out.println("value of x is: " + x);
+            System.out.println("value of x not 10 yet, keep looping");
+            x = x + 1;
+        }
+    }
+
+
 
     @Test
     public void junitDemoTest(){
@@ -101,26 +129,46 @@ public class BasicJavaExamples {
     }
 
     @Test
-    public void junitIfStatementTest(){
+    public void junitIfStatementTest() {
 
         int refundRequestAge = 9;
         boolean giveRefund;
 
-        if (refundRequestAge < 8){
-            giveRefund =true;
-        } else if (refundRequestAge == 8){
-            giveRefund = false;
-        } else {
-            giveRefund = false;
-        }
+//        if (refundRequestAge < 8){
+//            giveRefund =true;
+//        } else if (refundRequestAge == 8){
+//            giveRefund = false;
+//        } else {
+//            giveRefund = false;
+//        }
 
         int i = 5;
         Integer j = 6;
 
-        assertTrue(giveRefund);
+//        assertTrue(giveRefund);
+
+    }
+
+
+        @Test
+        public void inputTest(){
+
+            int value1 = 5;
+
+            Scanner input = new Scanner(System.in);
+            String value = input.nextLine();
+            System.out.println(value);
+            Object object = new Object();
+//            object.equals();
+
+//            if (value1 == 5) {
+//                System.out.println("Value is 5!");
+//            }
 
 
 
+
+        }
 
 
 //        if (refundRequestAge < 8){
@@ -140,4 +188,4 @@ public class BasicJavaExamples {
     }
 
 
-}
+

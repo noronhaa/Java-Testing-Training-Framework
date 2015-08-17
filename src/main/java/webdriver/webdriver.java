@@ -50,6 +50,7 @@ public class webdriver {
         //this sets an implicit wait for the entire time the browser is open - will wait for 10 seconds while trying to find
         //something before it times out
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
 
         //page load timeouts
         driver.manage().timeouts().pageLoadTimeout(100,TimeUnit.SECONDS);
@@ -107,6 +108,7 @@ public class webdriver {
         driver.get("http://www.which.co.uk");
 
         List<WebElement> menuListItems = driver.findElements(By.cssSelector(".popular-categories-block > a"));
+//        driver.findElement(B)
         for (WebElement menuListItem : menuListItems){
             System.out.println(menuListItem.getText());
         }
@@ -135,6 +137,7 @@ public class webdriver {
 
         Actions actions = new Actions(driver);
         actions.dragAndDrop(element,target);
+//        actions.
     }
 
 
@@ -185,6 +188,7 @@ public class webdriver {
         driver.get("http://www.toolsqa.com/iframe-practice-page/");
         driver.switchTo().frame(driver.findElement(By.id("IF1")));
         String Subtitle = driver.findElement(By.cssSelector("h1")).getText();
+        driver.switchTo().defaultContent();
         System.out.println(Subtitle);
     }
 
