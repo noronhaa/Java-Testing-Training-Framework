@@ -26,7 +26,7 @@ public class webdriver {
 
     public static final String USERNAME_LOCATOR = "//*[@id='login-username']";
     public static final String PASSWORD_LOCATOR = "//*[@id='login-password']";
-                                                                                                                                                                                     public static final String PASSWORD = "AH14533";
+    public static final String PASSWORD = "test";
     public static final String LOGIN_BUTTON_LOCATOR = "//*[@value='Login']";
     public static final String BASE_URL = "http://www.futurefit.co.uk/student-zone/myzone/";
 
