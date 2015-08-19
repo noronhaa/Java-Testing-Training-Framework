@@ -33,16 +33,36 @@
   <component name="GradleLocalSettings">
     <option name="modificationStamps">
       <map>
+        <entry key="$USER_HOME$/Downloads/Cucumber-gradle-webdriver-master 2/Cucumber-Spike" value="1373008232000" />
+        <entry key="$USER_HOME$/Downloads/cucumber-jvm-master/examples/java-gradle" value="1433006300000" />
+        <entry key="$USER_HOME$/Downloads/zapp-poc" value="2871276197000" />
         <entry key="$USER_HOME$/IdeaProjects/12112014_Alex" value="1418031567000" />
         <entry key="$USER_HOME$/IdeaProjects/Pingit/Android_Pingit/Trunk" value="1418046438000" />
         <entry key="$USER_HOME$/Pingit/IOS_PINGIT" value="1414053223000" />
         <entry key="$USER_HOME$/Pingit/Pingit2" value="1417000582000" />
         <entry key="$USER_HOME$/bmb-automation" value="1415350972000" />
         <entry key="$USER_HOME$/bmb-automation/bmb-automation-ios" value="1416235725000" />
+        <entry key="$PROJECT_DIR$/../../Shared/dev/BMB/BMB/Android BMB Mobile Automation" value="1429001366000" />
+        <entry key="$PROJECT_DIR$/../../Shared/dev/BMB/BMB/IOS BMB Mobile Automation" value="1428679298000" />
+        <entry key="$PROJECT_DIR$/../../Shared/dev/BMB/BMB/Nelson_BMB" value="1434365493000" />
+        <entry key="$PROJECT_DIR$/../../Shared/dev/BMB/BMB/Surbhi_UAT_June" value="1437746195000" />
+        <entry key="$PROJECT_DIR$/../../Shared/dev/BMB/BMB/dev" value="1429804256000" />
+        <entry key="$PROJECT_DIR$/../../Shared/dev/Pingit/Android_Pingit/Branch/Akshay_New_PINGIT" value="1430390729000" />
+        <entry key="$PROJECT_DIR$/../../Shared/dev/Pingit/Android_Pingit/Trunk" value="1433753571000" />
+        <entry key="$PROJECT_DIR$/../../Shared/dev/Pingit/Ashley261114" value="1422611553000" />
+        <entry key="$PROJECT_DIR$/../../Shared/dev/Pingit/Pingit-iOS/Trunk" value="1432812626000" />
+        <entry key="$PROJECT_DIR$/../../Shared/dev/Pingit/Pingit/zapp-poc/trunk" value="2875496144000" />
+        <entry key="$PROJECT_DIR$/../../Shared/dev/Pingit/Rahul_IOS_Pingit" value="1428499317000" />
+        <entry key="$PROJECT_DIR$/../../Shared/dev/Pingit/Trunk" value="1431076064000" />
+        <entry key="$PROJECT_DIR$/../../Shared/dev/Pingit/UIA" value="1422023225000" />
+        <entry key="$PROJECT_DIR$/../../Shared/dev/Pingit/master/Trunk" value="1428497578000" />
+        <entry key="$PROJECT_DIR$/../../Shared/dev/Pingit/zapp" value="1430922004000" />
+        <entry key="$PROJECT_DIR$/../../Shared/dev/Trunk" value="1431076064000" />
+        <entry key="$PROJECT_DIR$/../../Shared/dev/cucumber-web-tests" value="1373008232000" />
       </map>
     </option>
   </component>
-  <component name="IdProvider" IDEtalkID="4AA359C1A07B3999C0821DA202FE56D1" />
+  <component name="IdProvider" IDEtalkID="C45F753EB9FD3CA3D6EEA56EEB04B7DB" />
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
@@ -63,7 +83,7 @@
   <component name="ProjectModuleManager">
     <modules />
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" assert-keyword="true" jdk-15="true" project-jdk-name="1.7" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" assert-keyword="true" jdk-15="true" project-jdk-name="1.7" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
   <component name="PropertiesComponent">
@@ -73,7 +93,10 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/repos" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Shared/dev/Pingit" />
+    <property name="options.lastSelected" value="database.main" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -175,6 +198,11 @@
   </component>
   <component name="SvnConfiguration">
     <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
   </component>
   <component name="masterDetails">
     <states>

@@ -10,6 +10,7 @@ public class SystemInExample {
     public static void main(String[] args){
         String answer = "praying mantice";
         int gueses = 1;
+
         System.out.println("Lets Play a game...");
         System.out.println("Clue number 1: Guess the animal im thinking of in 8 or less gueses, you will get a clue for each incorrect guess");
         System.out.println("Guess number 1");
@@ -19,6 +20,7 @@ public class SystemInExample {
         Scanner scanner = new Scanner(System.in);
         String input = scanner.nextLine();
         gueses = 2;
+
         for (int i=0 ; i<8 ; i++) {
 
 
@@ -35,7 +37,7 @@ public class SystemInExample {
             } else {
                 System.out.println("Congratulations you won!");
                 System.out.println("you got the answer in "+ gueses +" guesses");
-                if (gueses <4){
+                if (gueses < 4){
                     System.out.println("Thats Amazing!");
                 } else if (4 < gueses && gueses < 7){
                     System.out.println("Thats Average :/");

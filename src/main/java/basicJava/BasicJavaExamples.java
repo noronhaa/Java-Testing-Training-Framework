@@ -6,6 +6,7 @@ import java.util.Scanner;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.fail;
 
 /**
  * junit continued
@@ -31,8 +32,11 @@ public class BasicJavaExamples {
         //This is a special method which can be run, anything inside this method - any code or methods called will be executed
 
         //This is a coommand to print the contents or value of whats inside the brackets
-        System.out.println("Hello World");
-        whileLoopExample();
+//        whileLoopExample();
+//
+//        String names[] = {"ash", "ben", "tom"};
+//        String value = names[0];
+        caseStatementExample();
     }
 
 
@@ -110,6 +114,25 @@ public class BasicJavaExamples {
             System.out.println("value of x not 10 yet, keep looping");
             x = x + 1;
         }
+    }
+
+    static void caseStatementExample(){
+        String name = "ASH";
+
+        switch (name){
+            case "ash" :
+                System.out.println("team zapp");
+                break;
+            case "dan" :
+                System.out.println("team launchpad");
+                break;
+            case "rupal" :
+                System.out.println("team loser");
+                break;
+            default: fail("no match in case statement");
+        }
+
+
     }
 
 
