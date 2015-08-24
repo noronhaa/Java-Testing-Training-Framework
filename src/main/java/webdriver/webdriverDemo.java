@@ -1,6 +1,7 @@
 package webdriver;
 
 import org.junit.Test;
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -33,6 +34,25 @@ public class webdriverDemo {
 
         assertEquals("Home - BBC News",webDriver.getTitle());
 
+        webDriver.quit();
+
+    }
+
+
+    @Test
+    public void formTest(){
+        webDriver.get("http://www.toolsqa.com/automation-practice-switch-windows/");
+        webDriver.findElement(By.id("alert")).click();
+        Alert alert = webDriver.switchTo().alert();
+        alert.accept();
+
+
+
+        try {
+            Thread.sleep(4000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
         webDriver.quit();
 
     }
